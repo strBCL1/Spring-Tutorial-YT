@@ -9,13 +9,25 @@
 
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
-    <bean id="musicBean"
+<!--    RockMusic bean-->
+    <bean id="firstMusicBean"
+          class="com.example.spring_tutorial_yt.RockMusic">
+    </bean>
+
+<!--    ClassicalMusic bean-->
+    <bean id="secondMusicBean"
           class="com.example.spring_tutorial_yt.ClassicalMusic">
     </bean>
 
+<!--    AmbientMusic bean-->
+    <bean id="thirdMusicBean"
+          class="com.example.spring_tutorial_yt.AmbientMusic">
+    </bean>
+
+<!--    MusicPlayer bean-->
+<!--    Initialize name and volume using external .properties file-->
     <bean id="musicPlayerBean"
           class="com.example.spring_tutorial_yt.MusicPlayer">
-        <property name="music" ref="musicBean"/>
         <property name="name" value="${musicPlayer.name}"/>
         <property name="volume" value="${musicPlayer.volume}"/>
     </bean>
