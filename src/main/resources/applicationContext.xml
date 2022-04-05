@@ -9,6 +9,13 @@
 
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
+    <bean id="musicBean"
+          class="com.example.spring_tutorial_yt.ClassicalMusic"
+          init-method="doMyInit"
+          destroy-method="doMyDestroy"
+          factory-method="factoryClassicalMusic">
+    </bean>
+
 <!--    RockMusic bean-->
     <bean id="firstMusicBean"
           class="com.example.spring_tutorial_yt.RockMusic">
