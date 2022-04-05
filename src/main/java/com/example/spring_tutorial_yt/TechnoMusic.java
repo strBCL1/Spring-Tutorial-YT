@@ -6,18 +6,18 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-@Component("rockMusicBean")
-public class RockMusic implements Music {
+@Component("technoMusicBean")
+public class TechnoMusic implements Music {
     static List<String> songsList = new LinkedList<>();
 
     static {
-        songsList.add("War of Change");
-        songsList.add("Happy Song");
-        songsList.add("Le Deux");
+        songsList.add("The Game");
+        songsList.add("Humanoid");
+        songsList.add("Cyberspace");
     }
 
     @Override
     public String getSong() {
-       return songsList.get(new Random().nextInt(songsList.size()));
+        return songsList.get(new Random().nextInt(songsList.size()));
     }
 }

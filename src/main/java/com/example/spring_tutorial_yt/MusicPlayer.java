@@ -14,12 +14,19 @@ public class MusicPlayer {
 
     @Autowired
     public MusicPlayer(@Qualifier("rockMusicBean") Music music1,
-                       @Qualifier("classicalMusicBean") Music music2) {
+                       @Qualifier("technoMusicBean") Music music2) {
         this.music1 = music1;
         this.music2 = music2;
     }
 
-    public String playMusic() {
-        return "Playing: " + music1.getSong() + ", " + music2.getSong();
+    public void playMusic(MusicGenres musicGenre) {
+        System.out.print("Playing: ");
+
+        if (musicGenre == MusicGenres.ROCK) {
+            System.out.println(music1.getSong());
+        }
+        else {
+            System.out.println(music2.getSong());
+        }
     }
 }
