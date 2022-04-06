@@ -1,7 +1,10 @@
 package com.example.spring_tutorial_yt;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
@@ -14,6 +17,16 @@ public class TechnoMusic implements Music {
         songsList.add("The Game");
         songsList.add("Humanoid");
         songsList.add("Cyberspace");
+    }
+
+    @PostConstruct
+    public void doMyInit() {
+        System.out.println("Doing my initialization!");
+    }
+
+    @PreDestroy
+    public void doMyDestroy() {
+        System.out.println("Doing my destruction!");
     }
 
     @Override
