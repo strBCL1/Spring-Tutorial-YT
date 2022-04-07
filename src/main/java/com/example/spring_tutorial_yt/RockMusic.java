@@ -6,7 +6,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-@Component("rockMusicBean")
 public class RockMusic implements Music {
     static List<String> songsList = new LinkedList<>();
 

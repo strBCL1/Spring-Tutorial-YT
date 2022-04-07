@@ -9,7 +9,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-@Component("technoMusicBean")
 public class TechnoMusic implements Music {
     static List<String> songsList = new LinkedList<>();
 
