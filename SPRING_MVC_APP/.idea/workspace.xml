@@ -10,26 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="726df2d8-01da-43fa-941e-ed99f3ac1f97" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring_mvc_package/config/MySpringMvcDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_mvc_package/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring_mvc_package/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_mvc_package/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring_mvc_package/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_mvc_package/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/spring_mvc_package/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/spring_mvc_package/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring-Framework-Tutorial-YT.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/spring_tutorial_yt/Computer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/spring_tutorial_yt/Music.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/spring_tutorial_yt/MusicGenres.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/spring_tutorial_yt/MusicPlayer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/spring_tutorial_yt/RockMusic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/spring_tutorial_yt/SpringConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/spring_tutorial_yt/TechnoMusic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/spring_tutorial_yt/TestSpring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/musicPlayer.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +60,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/IntelliJ Idea Workspace" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.62" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.62" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/people" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="SPRING_MVC_APP:war exploded">
@@ -177,6 +167,9 @@
       <workItem from="1649453407728" duration="55000" />
       <workItem from="1649458965401" duration="99000" />
       <workItem from="1649592217400" duration="7423000" />
+      <workItem from="1649707295476" duration="989000" />
+      <workItem from="1649708304608" duration="667000" />
+      <workItem from="1649708990762" duration="1293000" />
     </task>
     <servers />
   </component>

@@ -13,10 +13,10 @@ public class PersonDAO {
 
     {
         people = new LinkedList<>();
-        people.add(new Person(++peopleCount, "Tom"));
-        people.add(new Person(++peopleCount, "Bob"));
-        people.add(new Person(++peopleCount, "Mike"));
-        people.add(new Person(++peopleCount, "Katy"));
+        people.add(new Person(++peopleCount, "Tom", 15, "tom@gmail.com"));
+        people.add(new Person(++peopleCount, "Bob", 16, "bob@gmail.com"));
+        people.add(new Person(++peopleCount, "Mike", 17, "mike@gmail.com"));
+        people.add(new Person(++peopleCount, "Katy", 18, "katy@gmail.com"));
     }
 
     public List<Person> index() {
@@ -38,6 +38,8 @@ public class PersonDAO {
     public void update(int id, Person updatedPerson) {
         Person personToBeUpdated = show(id);
         personToBeUpdated.setName(updatedPerson.getName());
+        personToBeUpdated.setAge(updatedPerson.getAge());
+        personToBeUpdated.setEmail(updatedPerson.getEmail());
     }
 
     public void delete(int id) {
